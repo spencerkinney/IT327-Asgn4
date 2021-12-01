@@ -58,6 +58,6 @@ class h {
 		int x = Integer.parseInt(args[0]);
 		int y = Integer.parseInt(args[1]);
 		int[] variableTable = new int[4];
-		System.out.println( fun_h(x,y, variableTable) );
+		System.out.println( "h("+x+","+y+")="+ fun_h(x,y, variableTable) );
 	}
 }
